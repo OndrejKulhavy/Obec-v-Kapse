@@ -16,7 +16,7 @@
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
     <string name="title_activity_settings">SettingsActivity</string>
     <string name="hyperlink">Autor: Ondřej Kulhavý\nE-mail: okulhav@gmail.com\nGithub: <a href="https://github.com/OndrejKulhavy">OndrejKulhavy</a></string>
-    <string name="githubQueryLink">https://raw.githubusercontent.com/OndrejKulhavy/OvK_OFN_datasets/main/Query.json</string>
+    <string name="githubQueryLink">https://oha03.mvcr.gov.cz/sparql?query=PREFIX%20dct%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0A%0ASELECT%20%3Fdataset%20%3Fnazev%20%3Fpopis%20%3Furl%20%3Fformat%20%3Fmisto%20WHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%20%3B%0A%20%20%20%20dct%3Atitle%20%3Fnazev%20%3B%0A%20%20%20%20dct%3Adescription%20%3Fpopis%20%3B%0A%20%20%20%20dct%3AconformsTo%20%3Chttps%3A%2F%2Fofn.gov.cz%2Fud%C3%A1losti%2F%3E%20%3B%0A%20%20%20%20dcat%3Adistribution%20%3Fdistribuce%20%3B%0A%20%20%20%20dct%3Aspatial%20%3Fmisto.%0A%20%20%0A%20%20%3Fdistribuce%20dcat%3AdownloadURL%20%3Furl%20%3B%0A%20%20%20%20dct%3Aformat%20%3Chttp%3A%2F%2Fpublications.europa.eu%2Fresource%2Fauthority%2Ffile-type%2FJSON_LD%3E%20.%0A%20%20%0A%20%20FILTER%20(LANG(%3Fnazev)%3D%22cs%22)%0A%20%20FILTER%20(LANG(%3Fpopis)%3D%22cs%22)%0A%7D&amp;format=application/json</string>
     <string name="popis">Hlavní funkcí aplikace je zobrazení událostí a aktualit ve vybrané obci. Aplikace podporuje data zpracovaná dle otevřené formální normy. Jedním z cílů aplikace je zpropagovat a poukázat na možnost využití otevřených dat a motivovat tak obce k jejich publikaci.</string>
     <string name="Filtr">Filtr</string>
 

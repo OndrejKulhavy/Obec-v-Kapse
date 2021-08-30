@@ -18,8 +18,8 @@ class EventsParsingHelper (val udalosti : List<Udalost>
         val vhodne_pro_deti : Boolean,
         @SerializedName("vhodné_pro_zvířata")
         val vhodne_pro_zvirata : Boolean,
-        /*@SerializedName("kontakt")
-        val kontakt : KontaktEvents*/
+        @SerializedName("kontakt")
+        val kontakt : List<KontaktEvents>
         )
 
     class PopisEvents(val cs: String)

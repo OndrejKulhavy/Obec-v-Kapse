@@ -1,36 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".activities.EventViewActivity">
+    <LinearLayout
 
-    <TextView
-        android:layout_marginTop="16dp"
-        android:layout_marginHorizontal="16dp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:id="@+id/nazevEventTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Popis" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="16dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:id="@+id/nazevEventTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Popis" />
 
-    <TextView
-        android:layout_margin="16dp"
-        android:id="@+id/popisEventTextView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        <TextView
+            android:layout_margin="16dp"
+            android:id="@+id/popisEventTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
 
-    <View
-        android:id="@+id/divider"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="?android:attr/listDivider" />
+        <View
+            android:id="@+id/kontakt_cara"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/kontakt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kontakt"
+            android:layout_margin="16dp"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/facebok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facebook"
+            android:layout_marginHorizontal="16dp" />
+
+        <Button
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:layout_marginHorizontal="16dp" />
+        <Button
+            android:id="@+id/telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="telefon"
+            android:layout_marginHorizontal="16dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="5dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ostatní informace"
+            android:layout_margin="16dp"
+            android:textSize="16dp"
+            android:textStyle="bold"/>
+
+        <com.google.android.material.chip.ChipGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp">
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_vhodneProDeti"
+                android:checkable="false"
+                android:focusable="false"
+                android:clickable="false"
+                android:text="Vhodné pro děti"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_vhodneProZvirata"
+                android:checkable="false"
+                android:clickable="false"
+                android:focusable="false"
+                android:visibility="invisible"
+                android:text="Vhodné pro Zvířata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.chip.Chip
+                android:id="@+id/chip_bezbarierove"
+                android:checkable="false"
+                android:clickable="false"
+                android:focusable="false"
+                android:visibility="invisible"
+                android:text="Bezbariérový přístup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.chip.ChipGroup>
+    </LinearLayout>
 
 
-</LinearLayout>
+
+
+</ScrollView>
