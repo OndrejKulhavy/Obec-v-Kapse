@@ -2,7 +2,7 @@
 #### Ukázková aplikace k [Otevřeným formálním normám](https://data.gov.cz/ofn/)
 Aplikace zobrazí události a aktuality ve vybrané obci. Data jsou čerpána z [*falešného* Národního katalogu otevřených dat](https://oha03.mvcr.gov.cz/datové-sady). Cílem je zpropagovat data dle Otevřené formální normy tak, aby je začaly obce samy publikovat do [Národního katalogu otevřených dat](https://data.gov.cz/datov%C3%A9-sady).
 
-## Verze ke stažení
+## Instalace
 Pro úspěšné spuštění je třeba instalovat na android ve verzi 8.0 a vyšší.
 - K nalezení v sekci [releases](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases)
 - Nejnovější verze [zde](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases/latest)
