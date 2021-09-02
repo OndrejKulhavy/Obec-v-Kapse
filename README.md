@@ -4,7 +4,8 @@ Aplikace zobrazí události a aktuality ve vybrané obci. Data jsou čerpána z 
 
 ## Instalace
 Pro úspěšné spuštění je třeba instalovat na android ve verzi 8.0 a vyšší.
-- App ke stažení je k nalezení v sekci [RELEASES](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases). Nejnovější verze je k nalezení [ZDE](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases/latest)
+- App ke stažení je k nalezení v sekci [releases](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases). 
+- Nejnovější verze je k nalezení [zde](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases/latest).
 
 ## Další informace
 * Projekt vznikl vrámci 2. ročníku programu [Matfyz Summer of Code](https://d3s.mff.cuni.cz/msoc/).
