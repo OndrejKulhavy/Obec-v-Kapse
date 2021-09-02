@@ -8,7 +8,7 @@ Pro úspěšné spuštění je třeba instalovat na android ve verzi 8.0 a vyš�
 - Nejnovější verze je k nalezení [zde](https://github.com/OndrejKulhavy/Obec-v-Kapse/releases/latest).
 
 ## Další informace
-* Projekt vznikl vrámci 2. ročníku programu [Matfyz Summer of Code](https://d3s.mff.cuni.cz/msoc/).
 * Použité knihovny:
    *  [GSON](https://github.com/google/gson)
    *  [OkHttp](https://square.github.io/okhttp/)
+* Projekt vznikl vrámci 2. ročníku programu [Matfyz Summer of Code](https://d3s.mff.cuni.cz/msoc/).
