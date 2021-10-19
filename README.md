@@ -1,7 +1,7 @@
 # Obec v Kapse (:czech_republic:) 
 #### Ukázková aplikace k [Otevřeným formálním normám](https://data.gov.cz/ofn/)
-#### [Web projektu](https://okulhavy.notion.site/Obec-v-kapse-430082b287ac427e8ffede4b11316174)
 Aplikace zobrazí události a aktuality ve vybrané obci. Data jsou čerpána z [*falešného* Národního katalogu otevřených dat](https://oha03.mvcr.gov.cz/datové-sady). Cílem je zpropagovat data dle Otevřené formální normy tak, aby je začaly obce samy publikovat do [Národního katalogu otevřených dat](https://data.gov.cz/datov%C3%A9-sady).
+#### [Web projektu](https://okulhavy.notion.site/Obec-v-kapse-430082b287ac427e8ffede4b11316174)
 
 ## Instalace
 Pro úspěšné spuštění je třeba instalovat na android ve verzi 8.0 a vyšší.
